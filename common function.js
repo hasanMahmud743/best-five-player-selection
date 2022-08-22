@@ -27,6 +27,8 @@ function setValue(value, id){
     getValue.innerText = value
 }
 
+
+
 // function for add event listner
 
 function addEventListener(fieldID, listPlayerName){
@@ -39,11 +41,19 @@ function addEventListener(fieldID, listPlayerName){
         const innerText = playerName.innerText
 
         const playerList = document.getElementById('player-list')
-    
-        const creat = document.createElement('li')
-        creat.innerText = innerText
-        playerList.appendChild(creat)
-    
+        const timeCount = document.getElementsByTagName('li').length
+        console.log(timeCount)
+
+        if(timeCount < 5){  
+            const creat = document.createElement('li')
+            creat.innerText = innerText
+            playerList.appendChild(creat)
+
+        }  else{
+            alert('Vacancy is full. You cant add more player in this card. ')
+
+        }
+        
     
     
     })

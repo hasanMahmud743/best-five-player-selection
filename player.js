@@ -57,5 +57,3 @@ addEventListener('sixth-button', 'sixth-player')
 
 
 
-const a = document.getElementsByClassName('player-list').length
-console.log(a)

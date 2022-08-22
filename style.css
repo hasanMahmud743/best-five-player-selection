@@ -33,3 +33,7 @@ ol > li{
 .header{
     font-size: 60px;
 }
+
+.fixed-height{
+    height: 100%
+}
