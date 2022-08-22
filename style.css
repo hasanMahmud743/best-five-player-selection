@@ -1,0 +1,35 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+#banner-section{
+    height:60vh;
+    background: rgba(0,0,0,0.6)url(image/football.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    width:70%;
+    margin: auto;
+    text-align: center;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-img{
+    height: 200px;
+}
+
+ol > li{
+    font-size: 22px;
+    padding: 10px;
+}
+
+.header{
+    font-size: 60px;
+}
