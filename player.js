@@ -5,7 +5,9 @@ document.getElementById('calculate-button').addEventListener('click', function()
         alert('Please give a number value to continue.')
         return
     }
-    const allPlayerCost = playerPrice * 5
+
+    const timeCount = document.getElementsByTagName('li').length
+    const allPlayerCost = playerPrice * timeCount
     setValue(allPlayerCost, 'player-ex' )
 
    
@@ -27,26 +29,6 @@ document.getElementById('total-calculate').addEventListener('click', function(){
     setValue(finalTotal, 'final-total' )
 
 })
-
-
-
-
-// document.getElementById('click-one').addEventListener('click', function(){
-
-//     const button = document.getElementById('click-one')
-//     button.setAttribute('disabled', true) 
-
-//     const playerName = document.getElementById('player-name')
-//     const innerText = playerName.innerText
-//     const playerList = document.getElementById('player-list')
-
-//     const creat = document.createElement('li')
-//     creat.innerText = innerText
-//     playerList.appendChild(creat)
-
-
-
-// })
 
 addEventListener('first-button', 'first-player')
 addEventListener('sec-button', 'sec-player')

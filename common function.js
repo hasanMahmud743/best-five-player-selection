@@ -42,7 +42,6 @@ function addEventListener(fieldID, listPlayerName){
 
         const playerList = document.getElementById('player-list')
         const timeCount = document.getElementsByTagName('li').length
-        console.log(timeCount)
 
         if(timeCount < 5){  
             const creat = document.createElement('li')

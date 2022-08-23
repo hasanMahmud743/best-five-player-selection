@@ -1,5 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 
 }
 
@@ -21,22 +22,21 @@
 }
 
 .banner-div{
-    width:60%
+    width:60%;
 }
 
-.player-img{
-    /* height: 200px; */
-}
 
 ol > li{
     font-size: 22px;
-    padding: 10px;
+    padding: 13px;
 }
 
 .header{
     font-size: 60px;
 }
 
-.fixed-height{
-    height: 100%
-}
+/* .fixed-height{
+    height: 100%;
+   
+    
+} */
