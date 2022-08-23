@@ -5,13 +5,12 @@
 
 
 #banner-section{
-    height:60vh;
-    background: rgba(0,0,0,0.6)url(image/football.jpeg);
+    height:80vh;
+    background: rgba(0,0,0,0.5)url(image/football.jepg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: darken;
-    width:70%;
     margin: auto;
     text-align: center;
     padding:50px;
@@ -21,8 +20,12 @@
     justify-content: center;
 }
 
+.banner-div{
+    width:60%
+}
+
 .player-img{
-    height: 200px;
+    /* height: 200px; */
 }
 
 ol > li{

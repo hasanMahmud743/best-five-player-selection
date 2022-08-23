@@ -2,7 +2,7 @@ document.getElementById('calculate-button').addEventListener('click', function()
     const playerPrice = getValue('player-amount')
 
     if(isNaN(playerPrice)){
-        alert('insert a number')
+        alert('Please give a number value to continue.')
         return
     }
     const allPlayerCost = playerPrice * 5
@@ -19,7 +19,7 @@ document.getElementById('total-calculate').addEventListener('click', function(){
     const coachCost = getValue('coach-cost')
 
     if(isNaN(managerCost + coachCost)){
-        alert('insert a number')
+        alert('Please give a number value to continue.')
         return
     }
 
